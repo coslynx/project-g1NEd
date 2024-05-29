@@ -1,0 +1,27 @@
+{
+  "moderation_data": {
+    "automated_moderation_enabled": true,
+    "custom_commands": [
+      {
+        "command_name": "mute",
+        "action": "mute_user"
+      },
+      {
+        "command_name": "kick",
+        "action": "kick_user"
+      },
+      {
+        "command_name": "warn",
+        "action": "issue_warning"
+      }
+    ],
+    "role_management_enabled": true,
+    "logging_enabled": true,
+    "anti_raid_protection_enabled": true,
+    "user_friendly_interface": true,
+    "third_party_integration": true,
+    "machine_learning": true,
+    "real_time_alerts": true,
+    "gamification_features": true
+  }
+}
